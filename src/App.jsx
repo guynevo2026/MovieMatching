@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { AnimatePresence } from 'framer-motion';
 import { Film, Users, User } from 'lucide-react';
 import SwipeDeck from './components/SwipeDeck';
 import ProfileTab from './components/tabs/ProfileTab';

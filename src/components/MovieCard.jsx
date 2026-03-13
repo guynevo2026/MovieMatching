@@ -1,7 +1,7 @@
 import React from 'react';
-import { motion, useMotionValue, useTransform } from 'framer-motion';
+import { useMotionValue, useTransform } from 'framer-motion';
 
-const MovieCard = ({ movie, drag, onDragEnd, isFront, exitAction }) => {
+const MovieCard = ({ movie, onDragEnd, isFront, exitAction }) => {
     const x = useMotionValue(0);
     const y = useMotionValue(0);
 
